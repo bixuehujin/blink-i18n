@@ -1,0 +1,21 @@
+{
+    "name" : "blink/i18n",
+    "description": "The I18N component for Blink",
+    "authors" : [
+        {
+            "name" : "Jin Hu",
+            "email": "bixuehujin@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/translation": "^2.7"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "blink\\i18n\\": "src"
+        }
+    }
+}
