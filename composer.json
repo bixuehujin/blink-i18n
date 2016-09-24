@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "symfony/translation": "^2.7"
+        "symfony/translation": "~3.0"
     },
     "autoload": {
         "files": [
